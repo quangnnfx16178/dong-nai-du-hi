@@ -1,0 +1,125 @@
+.header-logo {
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+    display: block;
+}
+
+.slogan {
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+    display: block;
+    color: black;
+}
+
+nav {
+    text-decoration: none;
+    list-style: none;
+    display: block;
+}
+
+nav ul {
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+    display: block;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 20px;
+    text-decoration: uppercase;
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a.active, a:hover {
+    color: white;
+    background: #8bc34a;
+    transition: .5s;
+}
+
+@media (max-width: 992px) {
+    nav ul li {
+        display: block;
+    }
+}
+p {
+    font-size: 14px;
+}
+
+.my-h1-title {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.my-h2-title {
+    font-size: 18px;
+}
+
+.my-title {
+    font-size: 16px;
+}
+
+.img-fitting {
+    display: block;
+    margin: 5% 0;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.circular-image {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: blue;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.info {
+    padding: 12px;
+    text-align: justify;
+}
+
+.my-limit-size {
+    width: 250px;
+    height: 250px;
+}
+
+/* Horizontal menu links used in the footer */
+.menu-links {
+    list-style:none;
+    margin:.5em 0;
+    padding:0;
+}
+.menu-links li {
+    display:inline-block;
+}
+.menu-links a {
+    display:block;
+    padding:.5em;
+    white-space:nowrap;
+}
+
+.change-to-inline {
+    display: inline-block;
+    padding: 30px auto;
+}
+.add-more-space-20 {
+    height: 20px;
+}
+.add-more-space-10 {
+    height: 10px;
+}
